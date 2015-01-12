@@ -1,0 +1,28 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: I18n example\n"
+"POT-Creation-Date: 2015-01-12 18:04+0100\n"
+"PO-Revision-Date: 2015-01-12 18:06+0100\n"
+"Last-Translator: Alejandro Celaya <alejandro@alejandrocelaya.com>\n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-KeywordsList: translate\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: ../public\n"
+
+#: ../public/index.php:9
+msgid "Goodbye my friend"
+msgstr "Adiós amigo mío"
+
+#: ../public/index.php:10
+msgid "How are you?"
+msgstr "¿Cómo estás?"
+
+#: ../public/index.php:11
+msgid "My name is John Doe"
+msgstr "Mi nombre es John Doe"

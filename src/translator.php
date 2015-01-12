@@ -2,7 +2,7 @@
 use Zend\I18n\Translator\Translator;
 
 return Translator::factory([
-    'locale' => 'en',
+    'locale' => 'es',
     'translation_file_patterns' => [
         [
             'type'     => 'gettext',
