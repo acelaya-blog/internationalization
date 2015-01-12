@@ -2,8 +2,9 @@
 include __DIR__ . '/../vendor/autoload.php';
 
 $lang = isset($_GET['lang']) ? $_GET['lang'] : 'en';
-/** @var Zend\I18n\Translator\TranslatorInterface $translator */
+/** @var Zend\I18n\Translator\Translator $translator */
 $translator = include __DIR__ . '/../src/translator.php';
+$translator->setLocale($lang);
 
 echo sprintf('<p>%s</p>', $translator->translate('Hello my friend'));
 echo sprintf('<p>%s</p>', $translator->translate('How are you'));
