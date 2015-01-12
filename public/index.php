@@ -1,4 +1,6 @@
 <?php
+include __DIR__ . '/../vendor/autoload.php';
+
 $lang = isset($_GET['lang']) ? $_GET['lang'] : 'en';
 /** @var Zend\I18n\Translator\TranslatorInterface $translator */
 $translator = include __DIR__ . '/../src/translator.php';
