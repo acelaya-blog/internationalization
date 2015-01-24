@@ -11,12 +11,12 @@ $translator->setLocale($lang);
 ?>
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-	</head>
-	<body>
-		<p><?php echo $translator->translate('Goodbye my friend'); ?></p>
-		<p><?php echo $translator->translate('How are you?'); ?></p>
-		<p><?php echo $translator->translate('My name is John Doe'); ?></p>
-	</body>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <p><?php echo $translator->translate('Goodbye my friend'); ?></p>
+        <p><?php echo $translator->translate('How are you?'); ?></p>
+        <p><?php echo $translator->translate('My name is John Doe'); ?></p>
+    </body>
 </html>
