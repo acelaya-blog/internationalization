@@ -1,7 +1,4 @@
 <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-
 include __DIR__ . '/../vendor/autoload.php';
 
 $lang = isset($_GET['lang']) ? $_GET['lang'] : 'en';
