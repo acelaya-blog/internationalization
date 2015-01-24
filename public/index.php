@@ -15,5 +15,6 @@ $translator->setLocale($lang);
         <p><?php echo $translator->translate('Hello my friend'); ?></p>
         <p><?php echo $translator->translate('How are you?'); ?></p>
         <p><?php echo $translator->translate('My name is John Doe'); ?></p>
+        <p><?php echo $translator->translate('This string has no translation and will always be displayed as is'); ?></p>
     </body>
 </html>
