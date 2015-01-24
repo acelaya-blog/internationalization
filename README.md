@@ -1,2 +1,2 @@
-# i18n-example
-I18n Example
+# internationalization
+Translations and internationalization in PHP projects with Zend\I18n
